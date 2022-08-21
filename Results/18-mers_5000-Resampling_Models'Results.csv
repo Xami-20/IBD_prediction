@@ -1,5 +1,5 @@
-Model,Train Score,Test Score,Trees,Classification Report,Confusion Matrix
-SVM (Linear),59.25714285714285,59.266666666666666,NAN,"              precision    recall  f1-score   support
+Model,Train Score,Test Score,Classification Report,Confusion Matrix
+SVM (Linear),59.25714285714285,59.266666666666666,"              precision    recall  f1-score   support
 
           CD       0.62      0.84      0.72       846
           IC       0.88      0.08      0.15        84
@@ -13,7 +13,7 @@ weighted avg       0.58      0.59      0.55      1500
  [ 53   7   2  22]
  [166   1  42  18]
  [209   0   4 130]]"
-SVM (Poly),68.25714285714287,65.93333333333334,NAN,"              precision    recall  f1-score   support
+SVM (Poly),68.25714285714287,65.93333333333334,"              precision    recall  f1-score   support
 
           CD       0.67      0.87      0.76       846
           IC       1.00      0.21      0.35        84
@@ -27,7 +27,7 @@ weighted avg       0.67      0.66      0.63      1500
  [ 48  18   2  16]
  [145   0  70  12]
  [178   0   3 162]]"
-SVM (RBF),58.48571428571429,59.53333333333334,NAN,"              precision    recall  f1-score   support
+SVM (RBF),58.48571428571429,59.53333333333334,"              precision    recall  f1-score   support
 
           CD       0.60      0.94      0.73       846
           IC       1.00      0.05      0.09        84
@@ -41,7 +41,7 @@ weighted avg       0.61      0.60      0.51      1500
  [ 64   4   1  15]
  [206   0  12   9]
  [262   0   2  79]]"
-RF,92.82857142857142,89.33333333333333,50,"              precision    recall  f1-score   support
+RF_50-Trees,92.82857142857142,89.33333333333333,"              precision    recall  f1-score   support
 
           CD       0.93      0.91      0.92       846
           IC       0.92      0.67      0.77        84
@@ -55,7 +55,7 @@ weighted avg       0.90      0.89      0.89      1500
  [ 15  56   3  10]
  [ 18   0 198  11]
  [ 25   0   2 316]]"
-RF,92.82857142857142,89.4,100,"              precision    recall  f1-score   support
+RF_100-Trees,92.82857142857142,89.4,"              precision    recall  f1-score   support
 
           CD       0.93      0.91      0.92       846
           IC       0.92      0.67      0.77        84
@@ -69,7 +69,7 @@ weighted avg       0.90      0.89      0.89      1500
  [ 15  56   3  10]
  [ 18   0 198  11]
  [ 25   0   2 316]]"
-RF,92.82857142857142,89.33333333333333,150,"              precision    recall  f1-score   support
+RF_150-Trees,92.82857142857142,89.33333333333333,"              precision    recall  f1-score   support
 
           CD       0.93      0.91      0.92       846
           IC       0.92      0.67      0.77        84
