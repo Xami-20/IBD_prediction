@@ -1,0 +1,85 @@
+Model,Train Score,Test Score,Trees,Classification Report,Confusion Matrix
+SVM (Linear),62.5,56.333333333333336,NAN,"              precision    recall  f1-score   support
+
+          CD       0.60      0.87      0.71       319
+          IC       0.00      0.00      0.00        40
+          UC       0.53      0.18      0.27        95
+          no       0.42      0.31      0.36       146
+
+    accuracy                           0.56       600
+   macro avg       0.39      0.34      0.33       600
+weighted avg       0.50      0.56      0.51       600
+","[[276   0  11  32]
+ [ 23   0   2  15]
+ [ 63   0  17  15]
+ [ 99   0   2  45]]"
+SVM (Poly),67.92857142857143,57.333333333333336,NAN,"              precision    recall  f1-score   support
+
+          CD       0.61      0.82      0.70       319
+          IC       0.80      0.10      0.18        40
+          UC       0.60      0.25      0.36        95
+          no       0.43      0.36      0.40       146
+
+    accuracy                           0.57       600
+   macro avg       0.61      0.39      0.41       600
+weighted avg       0.58      0.57      0.54       600
+","[[263   1  12  43]
+ [ 21   4   2  13]
+ [ 58   0  24  13]
+ [ 91   0   2  53]]"
+SVM (RBF),56.49999999999999,54.333333333333336,NAN,"              precision    recall  f1-score   support
+
+          CD       0.54      1.00      0.70       319
+          IC       0.00      0.00      0.00        40
+          UC       0.00      0.00      0.00        95
+          no       0.57      0.05      0.10       146
+
+    accuracy                           0.54       600
+   macro avg       0.28      0.26      0.20       600
+weighted avg       0.43      0.54      0.40       600
+","[[318   0   0   1]
+ [ 36   0   0   4]
+ [ 94   0   0   1]
+ [138   0   0   8]]"
+RF,94.5,77.16666666666666,50,"              precision    recall  f1-score   support
+
+          CD       0.81      0.86      0.83       319
+          IC       0.75      0.45      0.56        40
+          UC       0.78      0.71      0.74        95
+          no       0.68      0.72      0.70       146
+
+    accuracy                           0.77       600
+   macro avg       0.76      0.68      0.71       600
+weighted avg       0.77      0.77      0.77       600
+","[[273   2  12  32]
+ [ 10  18   3   9]
+ [ 18   1  67   9]
+ [ 34   3   4 105]]"
+RF,94.5,77.16666666666666,100,"              precision    recall  f1-score   support
+
+          CD       0.82      0.85      0.83       319
+          IC       0.78      0.45      0.57        40
+          UC       0.77      0.71      0.74        95
+          no       0.68      0.73      0.70       146
+
+    accuracy                           0.77       600
+   macro avg       0.76      0.68      0.71       600
+weighted avg       0.77      0.77      0.77       600
+","[[272   1  13  33]
+ [ 10  18   3   9]
+ [ 18   1  67   9]
+ [ 33   3   4 106]]"
+RF,94.5,77.5,150,"              precision    recall  f1-score   support
+
+          CD       0.82      0.86      0.84       319
+          IC       0.78      0.45      0.57        40
+          UC       0.78      0.71      0.74        95
+          no       0.68      0.72      0.70       146
+
+    accuracy                           0.78       600
+   macro avg       0.76      0.68      0.71       600
+weighted avg       0.78      0.78      0.77       600
+","[[275   1  11  32]
+ [  9  18   4   9]
+ [ 18   1  67   9]
+ [ 34   3   4 105]]"
